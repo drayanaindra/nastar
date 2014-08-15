@@ -1,0 +1,21 @@
+# Python bytecode:
+*.py[co]
+
+# CSS
+main.css
+staff.css
+*.css
+
+# SASS
+.sass-cache
+
+# SQLite3 database files:
+*.db
+*.sqlite3
+
+*.png
+*.jpeg
+*.jpg
+
+#sublime
+.idea
