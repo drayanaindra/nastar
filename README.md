@@ -29,10 +29,13 @@ Install requirements:
 ____________________________________________
 Run nastar on your local:
 
+    $ ./manage.py syncdb --settings=nastar.settings.local
+    $ ./manage.py migrate --settings=nastar.settings.local
     $ ./manage.py runserver --settings=nastar.settings.local
 
 and open in your browser http://localhost:8000
 ____________________________________________
 
 Powered : [TANGKIL Lab](http://www.tangkil.com)
+
 Question : [@drayanaindra](https://www.twitter.com/drayanaindra)
