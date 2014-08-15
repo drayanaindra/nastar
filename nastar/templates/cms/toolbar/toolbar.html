@@ -10,10 +10,10 @@
 	{# start: toolbar #}
 	<div class="cms_toolbar">
 		<div class="cms_toolbar-left">
-			{% include "cms/toolbar/items/logo.html" %}
+			{# is logo #}
 
 			{% if not user.is_authenticated %}
-			{% include "cms/toolbar/items/login.html" %}
+			{# is logo #}
 			{% else %}
 			<ul class="cms_toolbar-item cms_toolbar-item-navigation">
 				{% for item in request.toolbar.get_left_items %}
